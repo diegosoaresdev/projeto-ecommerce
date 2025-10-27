@@ -4,6 +4,7 @@ Este projeto é uma atividade final que demonstra a criação de uma página de 
 
 ## 🚀 Demonstração
 
+![projetoecommerce](https://github.com/user-attachments/assets/83e48ef1-66ad-4bf2-94f3-03bf08dd5458)
 
 
 ## ✨ Features
