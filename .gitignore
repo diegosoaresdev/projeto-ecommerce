@@ -1,0 +1,61 @@
+# Arquivo .gitignore para projetos Web (HTML, CSS, JS)
+
+# ===============
+# Dependências
+# ===============
+# Ignora a pasta de pacotes do Node.js
+# Mesmo que você não esteja usando agora, é uma boa prática já ter.
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===============
+# Arquivos de Build
+# ===============
+# Pastas comuns de "saída" de projetos compilados
+dist/
+build/
+out/
+.parcel-cache/
+.cache/
+
+# ===============
+# Arquivos Sensíveis
+# ===============
+# Nunca envie chaves de API, senhas ou segredos para o Git.
+.env
+.env.local
+.env.*.local
+*.env
+
+# ===============
+# Arquivos de IDE e Editores
+# ===============
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains (WebStorm, IntelliJ, etc.)
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ===============
+# Arquivos de Sistema Operacional
+# ===============
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*~
+.directory
